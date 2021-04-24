@@ -9,5 +9,6 @@ from click.testing import CliRunner
 
 logger = logging.getLogger()
 
+
 def test_cli():
     pass

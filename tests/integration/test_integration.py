@@ -3,8 +3,6 @@ from math import nan
 from pathlib import Path
 
 
-
 def test_integration():
-    file = "fixture_file.txt" 
-    assert True 
-
+    file = "fixture_file.txt"
+    assert True

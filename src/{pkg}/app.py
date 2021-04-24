@@ -31,7 +31,7 @@ def {pkg{(ctx):
 def cmd1(ctx, verbose, input,output):
     numeric_level = get_verbosity_level(verbose)
     logging.basicConfig(level=numeric_level)
-    
+
 if __name__ == "__main__":
     # pylint: disable=no-value-for-parameter
     cmd1()
